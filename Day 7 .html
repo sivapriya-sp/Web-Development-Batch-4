@@ -1,0 +1,65 @@
+<!-- Html forms and input tags 
+ form tag - used collect user input and sumbit it to a server or handle it with JS -->
+<!-- <form action="/submit" method="post">
+    input field 
+ </form> -->
+<!-- radio buttons - user must select only one option from a group
+check boxes - user can se""lect  multiple options -->
+<!-- id="html" connect to for="html" in the label -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input types</title>
+    <link rel="stylesheet" href="Day 7.css">
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email"><br><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" placeholder="Enter Your password"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label>Skills</label><br>
+        <input type="checkbox" id="html" name="skill" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skill" value="css">
+        <label for="css">CSS</label><br><br>
+
+        <label for="dob">Date of Brith:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="profile">Upload Profile Picture:</label>
+        <input type="file" id="profile" name="profile"><br><br>
+
+        <label for="color">Favorite Color :</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <lable for="bio">Short Bio:</lable><br>
+        <textarea id="bio" name="bio" rows="4" cols="40" placeholder="write about  yourself"></textarea><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
+
+
+
+
+6374598161
