@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.example {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-left: 5px solid rgb(4, 167, 231);
+    max-width: 500px;
+    border-radius: 8px;
+    min-width: 120px;
+}
+
+#bg-color {
+    background-color: rgb(91, 186, 7);
+    color: white;
+}
+
+#bg-image {
+    background-image: url(image/imagess.jpeg);
+    background-color: #f0f0f0;
+    /* background-repeat: no-repeat;
+    background-size: 100px; */
+}
+
+#bg-repeat {
+    background-image: url(image/imagess.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+#bg-size{
+     background-image: url(image/imagess.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+#bg-position{
+    background-image: url(image/imagess.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+}
+#bg-attachment{
+     background-image: url(image/imagess.jpeg);
+     background-size:cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* color: white; */
+}

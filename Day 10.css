@@ -1,0 +1,12 @@
+.box{
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+#specail{
+    background-color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: darkred;
+}
