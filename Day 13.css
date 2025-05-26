@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+.example{
+    background-color: #ffffff;
+    border-left: 5px solid rgb(24, 209, 246);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 8px;
+}
+
+.named{
+    color: green;
+}
+.hex{
+    color: #ff5733;
+}
+.rgb{
+    color: rgb(149, 0, 255);
+}
+.rgba{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.hsl{
+    color: hsl(120,100%,25%);
+}
