@@ -1,0 +1,55 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    background: #f4f4f4;
+}
+h1{
+    color: green;
+}
+section{
+    margin-bottom: 30px;
+}
+.block{
+    display: block;
+    background-color: gold;
+    padding: 10px;
+    margin: 5px 0;
+}
+.inline{
+    display: inline;
+    background-color: gold;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+.inline-block{
+    display: inline-block;
+    background: skyblue;
+    padding: 10px;
+    width: 100px;
+    margin-right: 10px;
+}
+.none{
+    display: none;
+}
+.flex{
+display: flex;
+gap: 10px;
+}
+.flex div{
+    background: #ffd67f;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.grid div{
+    background: #bd2fbd;
+    padding: 10px;
+    text-align: center;
+}

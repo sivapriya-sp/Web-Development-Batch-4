@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model z - Index</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #e0e0e0;
+            height: 300px;
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h2>Main Page Content</h2>
+        <p>This is your Website Normal Content</p>
+        <button onclick="openModal()">Show popup</button>
+    </div>
+    <div class="modal" id="popupModal">
+        <div class="modal-content">
+            <h2>This is a Popup Model</h2>
+            <p>it uses <strong>Z-index</strong>to appera about everthing</p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    <script>
+        function openModal() {
+            document.getElementById('popupModal').classList.add('active');
+        }
+        function closeModal(){
+             document.getElementById('popupModal').classList.remove('active');
+        }
+    </script>
+</body>
+
+</html>
