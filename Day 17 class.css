@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+h2{
+    margin-bottom: 30px;
+}
+
+.box{
+    width: 300px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 2px solid #333;
+    border: green;
+}
+.visible{
+    overflow: visible;
+}
+.hidden{
+    overflow: hidden;
+}
+.scroll{
+    overflow: scroll;
+}
+.auto{
+    overflow: auto;
+}
