@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top:50px ;
+}
+h2{
+    margin-bottom: 30px;
+    color: #333;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    color: white;
+    line-height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font: 1.2em;
+    animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+    0%,100%{
+        transform: translateY(0);
+        background-color: #3498db;
+    }
+    50%{
+        transform: translateY(-50%);
+        background-color: greenyellow;
+    }
+}

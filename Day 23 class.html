@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .my-style {
+            background-color: aliceblue;
+            padding: 30px;
+        }
+
+        @media (min-width:254px) {
+            .my-style {
+                background-color: rgb(255, 0, 0);
+            }
+        }
+
+        @media (min-width:456px) {
+            .my-style {
+                background-color: rgb(45, 253, 3);
+            }
+        }
+
+        @media (min-width:576px) {
+            .my-style {
+                background-color: rgb(236, 253, 3);
+            }
+        }
+
+        @media (min-width:768px) {
+            .my-style {
+                background-color: rgb(236, 253, 3);
+            }
+        }
+
+        @media (min-width:992px) {
+            .my-style {
+                background-color: rgb(3, 91, 253);
+            }
+        }
+
+        @media (min-width:1200px) {
+            .my-style {
+                background-color: rgb(253, 3, 253);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="my-style">
+        Resize the browser and see the background change
+    </div>
+</body>
+
+</html>

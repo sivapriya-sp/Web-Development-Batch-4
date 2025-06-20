@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positon animation</title>
+    <style>
+        .animation-example{
+            width: 100px;
+            height: 100px;
+            background-color: aliceblue;
+            position: relative;
+            animation-name: bgpositionAnimation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes bgpositionAnimation {
+            0%{
+                background-color: lightblue; 
+                left: 0px; top: 0px;
+            }
+            25%{
+                background-color: orangered; 
+                left: 200px; top: 0px;
+            }
+             50%{
+                background-color: rgb(208, 223, 10); 
+                left: 200px; top: 200px;
+            }
+            75%{
+                background-color: rgb(19, 102, 197); 
+                left: 0px; top: 200px;
+            }
+             100%{
+                background-color: lightblue; 
+                left: 0px; top: 0px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="animation-example"></div>
+</body>
+</html>
